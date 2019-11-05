@@ -7,7 +7,7 @@ class SampleApplication(Base.AbstractApplication):
         self.sayAnimated('Hello, world!')
 
     def onRobotEvent(self, event):
-        print event
+        print(event)
 
 
 # Run the application
